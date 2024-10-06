@@ -16,6 +16,8 @@ const geistMono = localFont({
 export const metadata: Metadata = {
   title: "Calculadora de consumo electrico",
   description: "Calcular consumo electrico",
+  keywords: "calculadora de consumo eléctrico, electrodomésticos, consumo mensual, costo estimado",
+  authors: [{ name: "IBER-DEV", url: "https://github.com/IBER-DEV" }],
 };
 
 export default function RootLayout({
