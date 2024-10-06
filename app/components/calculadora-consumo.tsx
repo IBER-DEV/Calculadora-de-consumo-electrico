@@ -116,7 +116,7 @@ export default function CalculadoraConsumo() {
   }
 
   const generarDatosGrafico = () => {
-    let datos = []
+    const datos = []
     const periodos = periodoGrafico === "diario" ? 24 : periodoGrafico === "semanal" ? 7 : 30
     const factor = periodoGrafico === "diario" ? 1 : periodoGrafico === "semanal" ? 7 : 30
 
